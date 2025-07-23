@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Corn_Override
+  m_Controller: {fileID: 9100000, guid: c1d156d6670ab2e4cafb59f962957079, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0b3ec4b0dc6340e43ab70cd2d4e51d3f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 30aba34346f15db48b32741f6f5740b2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ce958ad00d2a34744917fd8b4ac969a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2dac0bc8129ccb74cbc9774c1e67d7e5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a0cecd87cd1498c4f9bea1666ad36c95, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d5860e0ec5f35eb47bc6f02279a676dc, type: 2}

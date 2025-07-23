@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Amaranth_Override
+  m_Controller: {fileID: 9100000, guid: c1d156d6670ab2e4cafb59f962957079, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0b3ec4b0dc6340e43ab70cd2d4e51d3f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 634ca8f60a49b004f909a9583840ddc2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ce958ad00d2a34744917fd8b4ac969a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 07921a537d3c8bf409df21ca317c664d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a0cecd87cd1498c4f9bea1666ad36c95, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ccd9a21270c7cc34595c404bb028c327, type: 2}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grape_Override
+  m_Controller: {fileID: 9100000, guid: c1d156d6670ab2e4cafb59f962957079, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0b3ec4b0dc6340e43ab70cd2d4e51d3f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9e7e4afadc07e3d49a6e40e1aa54652c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ce958ad00d2a34744917fd8b4ac969a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6ba2d6fc48ceb774fbdc99abc67af876, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a0cecd87cd1498c4f9bea1666ad36c95, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cee44f1433100f946b79f5ce51ac438b, type: 2}
