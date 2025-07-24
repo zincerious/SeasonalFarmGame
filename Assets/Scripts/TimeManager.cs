@@ -8,10 +8,11 @@ namespace Assets.Scripts
         public int currentHour = 6;
         public int currentMinute = 0;
         public int currentDay = 1;
-        public TextMeshProUGUI timeText;
 
         public float timePerMinute = 0.5f;
         private float timer = 0f;
+
+        public TextMeshProUGUI timeText;  // hiển thị giờ phút hiện tại
 
         void Start()
         {
@@ -36,6 +37,7 @@ namespace Assets.Scripts
                     {
                         currentHour = 0;
                         currentDay++;
+                        GameManager.Instance.NextDay();
                         Debug.Log("A new day has started!");
                     }
                 }
@@ -46,7 +48,8 @@ namespace Assets.Scripts
 
         void UpdateTimeDisplay()
         {
-            timeText.text = $"Day {currentDay}, {currentHour:00}:{currentMinute:00}";
+            if (timeText != null)
+                timeText.text = $"Day {currentDay}, {currentHour:00}:{currentMinute:00}";
         }
     }
 }

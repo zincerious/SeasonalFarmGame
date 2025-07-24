@@ -30,11 +30,9 @@ public class SFXManager : MonoBehaviour
 
     public void PlayDig() => audioSource.PlayOneShot(digSound);
     public void PlayPlant() => audioSource.PlayOneShot(plantSound);
-    public IEnumerator PlayWater()
+    public void PlayWater()
     {
         audioSource.PlayOneShot(waterSound);
-        yield return new WaitForSeconds(4f);
-        audioSource.Stop();
     }
     public void PlayHarvest() => audioSource.PlayOneShot(harvestSound);
 }
