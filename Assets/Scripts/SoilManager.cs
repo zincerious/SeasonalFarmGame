@@ -2,9 +2,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
 public class SoilManager : MonoBehaviour
 {
+    public Image modeIcon;
+    public Sprite tillIcon;
+    public Sprite plantIcon;
+    public Sprite waterIcon;
+    public Sprite harvestIcon;
     public Tilemap soilTilemap;
     public TileBase soilTile;
     public TileBase tilledSoilTile;
@@ -222,6 +228,25 @@ public class SoilManager : MonoBehaviour
         if (modeText != null)
         {
             modeText.text = $"Mode: {currentMode}";
+        }
+
+        if (modeIcon != null)
+        {
+            switch (currentMode)
+            {
+                case FarmMode.Till:
+                    modeIcon.sprite = tillIcon;
+                    break;
+                case FarmMode.Plant:
+                    modeIcon.sprite = plantIcon;
+                    break;
+                case FarmMode.Water:
+                    modeIcon.sprite = waterIcon;
+                    break;
+                case FarmMode.Harvest:
+                    modeIcon.sprite = harvestIcon;
+                    break;
+            }
         }
     }
 

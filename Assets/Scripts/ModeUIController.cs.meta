@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 413b6574e62e1e747be6c858693626f1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - modeText: {instanceID: 0}
+  - modeIcon: {instanceID: 0}
+  - tillIcon: {fileID: 961273174600758130, guid: 62126c38327d47a42a82012320ff4fb1, type: 3}
+  - waterIcon: {fileID: -1597564027288149846, guid: 62126c38327d47a42a82012320ff4fb1, type: 3}
+  - plantIcon: {fileID: 1559704157218881296, guid: 62126c38327d47a42a82012320ff4fb1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
