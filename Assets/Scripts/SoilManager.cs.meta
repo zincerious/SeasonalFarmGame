@@ -1,2 +1,24 @@
 fileFormatVersion: 2
 guid: ecb86374cea1cd940a08e1853e497591
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - modeIcon: {instanceID: 0}
+  - tillIcon: {fileID: 961273174600758130, guid: 62126c38327d47a42a82012320ff4fb1, type: 3}
+  - plantIcon: {fileID: 1559704157218881296, guid: 62126c38327d47a42a82012320ff4fb1, type: 3}
+  - waterIcon: {fileID: -1597564027288149846, guid: 62126c38327d47a42a82012320ff4fb1, type: 3}
+  - harvestIcon: {fileID: 5845537116698209556, guid: 246e2fe3cb641d84fb74ad16536fbad1, type: 3}
+  - soilTilemap: {instanceID: 0}
+  - soilTile: {instanceID: 0}
+  - tilledSoilTile: {instanceID: 0}
+  - wateredSoilTile: {instanceID: 0}
+  - plantPrefab: {instanceID: 0}
+  - modeText: {instanceID: 0}
+  - selectedPlantText: {instanceID: 0}
+  - selectedPlantData: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
