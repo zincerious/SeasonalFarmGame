@@ -6,8 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int moneyGoal = 10000;
-    public int maxGameDays = 7;
+    public int moneyGoal = 12000;
+    public int maxGameDays = 10;
     public int currentGameDay = 1;
 
     public TextMeshProUGUI goalText;

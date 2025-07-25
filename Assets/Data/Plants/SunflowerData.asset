@@ -15,8 +15,8 @@ MonoBehaviour:
   plantName: Sunflower
   seedName: Sunflower Seed
   productName: Sunflower Product
-  buyPrice: 80
-  baseSellPrice: 150
-  growTime: 220
-  growSeasons: 0100000002000000
+  buyPrice: 150
+  baseSellPrice: 200
+  growTime: 170
+  growSeasons: 010000000200000000000000
   plantAnimator: {fileID: 22100000, guid: 4fbb4adb83e9f1d4683adaa7a5f20646, type: 2}

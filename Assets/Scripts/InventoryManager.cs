@@ -6,7 +6,7 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
 
-    private int money = 500;
+    private int money = 1000;
     public delegate void MoneyChanged(int newAmount);
     public event MoneyChanged OnMoneyChanged;
 

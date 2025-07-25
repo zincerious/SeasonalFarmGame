@@ -15,8 +15,8 @@ MonoBehaviour:
   plantName: Wheat
   seedName: Wheat Seed
   productName: Wheat Product
-  buyPrice: 20
-  baseSellPrice: 40
-  growTime: 120
-  growSeasons: 0100000002000000
+  buyPrice: 200
+  baseSellPrice: 500
+  growTime: 150
+  growSeasons: 010000000200000000000000
   plantAnimator: {fileID: 22100000, guid: c3972532ec8fdfe41b37de7841975d34, type: 2}

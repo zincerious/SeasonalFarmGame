@@ -18,5 +18,5 @@ MonoBehaviour:
   buyPrice: 100
   baseSellPrice: 320
   growTime: 240
-  growSeasons: 02000000
+  growSeasons: 0000000002000000
   plantAnimator: {fileID: 22100000, guid: 782636a72a429b648aba47648b0fcf52, type: 2}

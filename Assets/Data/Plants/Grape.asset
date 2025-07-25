@@ -15,8 +15,8 @@ MonoBehaviour:
   plantName: Grape
   seedName: Grape Seed
   productName: Grape Product
-  buyPrice: 30
-  baseSellPrice: 55
-  growTime: 180
-  growSeasons: 02000000
+  buyPrice: 25
+  baseSellPrice: 50
+  growTime: 100
+  growSeasons: 0000000002000000
   plantAnimator: {fileID: 22100000, guid: 455e43cd9d9a182478ae4b2e44de2313, type: 2}

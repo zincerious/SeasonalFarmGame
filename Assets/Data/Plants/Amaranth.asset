@@ -15,8 +15,8 @@ MonoBehaviour:
   plantName: Amaranth
   seedName: Amaranth Seed
   productName: Amaranth Product
-  buyPrice: 30
-  baseSellPrice: 65
-  growTime: 150
-  growSeasons: 02000000
+  buyPrice: 50
+  baseSellPrice: 60
+  growTime: 120
+  growSeasons: 0000000002000000
   plantAnimator: {fileID: 22100000, guid: 6e53b9a7562f3c24f9948ed489a96fba, type: 2}

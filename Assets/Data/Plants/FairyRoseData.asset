@@ -15,8 +15,8 @@ MonoBehaviour:
   plantName: Fairy Rose
   seedName: Fairy Rose Seed
   productName: Fairy Rose Product
-  buyPrice: 60
-  baseSellPrice: 250
+  buyPrice: 120
+  baseSellPrice: 300
   growTime: 300
-  growSeasons: 02000000
+  growSeasons: 0000000002000000
   plantAnimator: {fileID: 22100000, guid: 5a776dd5e04a7994e9df2ea42d41164a, type: 2}

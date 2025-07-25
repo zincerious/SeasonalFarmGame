@@ -15,8 +15,8 @@ MonoBehaviour:
   plantName: Eggplant
   seedName: Eggplant Seed
   productName: Eggplant Product
-  buyPrice: 40
-  baseSellPrice: 60
-  growTime: 180
-  growSeasons: 02000000
+  buyPrice: 70
+  baseSellPrice: 100
+  growTime: 220
+  growSeasons: 0000000002000000
   plantAnimator: {fileID: 22100000, guid: 9c746e3674d3bf940802f8d8ea4c01e1, type: 2}

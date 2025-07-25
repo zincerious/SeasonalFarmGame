@@ -15,8 +15,8 @@ MonoBehaviour:
   plantName: Corn
   seedName: Corn Seed
   productName: Corn Product
-  buyPrice: 30
-  baseSellPrice: 75
-  growTime: 200
-  growSeasons: 0100000002000000
+  buyPrice: 25
+  baseSellPrice: 50
+  growTime: 150
+  growSeasons: 0000000002000000
   plantAnimator: {fileID: 22100000, guid: d21b6da1876230d48849a8af32d661ad, type: 2}
