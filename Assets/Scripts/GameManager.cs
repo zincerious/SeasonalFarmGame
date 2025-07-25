@@ -34,39 +34,8 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void FindUIReferences()
-    {
-        goalText = GameObject.Find("GoalText")?.GetComponent<TextMeshProUGUI>();
-        dayText = GameObject.Find("DayText")?.GetComponent<TextMeshProUGUI>();
-        deadlineText = GameObject.Find("DeadlineText")?.GetComponent<TextMeshProUGUI>();
-        victoryPanel = GameObject.Find("VictoryPanel");
-        losePanel = GameObject.Find("LosePanel");
-        if (victoryPanel != null)
-            victoryPanel.SetActive(false);
-
-        if (losePanel != null)
-            losePanel.SetActive(false);
-
-        UpdateGoalUI();
-    }
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        FindUIReferences();
-    }
-
     void Start()
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
         Instance = this;
         currentGameDay = 1;
 
