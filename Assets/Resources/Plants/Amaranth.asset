@@ -17,6 +17,6 @@ MonoBehaviour:
   productName: Amaranth Product
   buyPrice: 30
   baseSellPrice: 65
-  growTime: 150
+  growTime: 30
   growSeasons: 02000000
   plantAnimator: {fileID: 22100000, guid: 6e53b9a7562f3c24f9948ed489a96fba, type: 2}
